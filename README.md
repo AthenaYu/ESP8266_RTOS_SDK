@@ -6,8 +6,6 @@ ESP8266 SDK based on FreeRTOS.
    
 ## Note ##
 
-APIs of "ESP8266_RTOS_SDK" are same as "ESP8266_NONOS_SDK"
-
 More details in "Wiki" !
 
 ## Requrements ##
@@ -48,8 +46,6 @@ Just follow the tips and steps.
 
 ## Download ##
 
-eagle.app.v6.flash.bin, downloads to flash 0x00000
-
-eagle.app.v6.irom0text.bin, downloads to flash 0x40000
-
-blank.bin, downloads to flash 0x7E000
+* Using [ESP Flash Download Tool](http://bbs.espressif.com/viewtopic.php?f=57&t=433) and select the right flash size on the tool while downloading.  
+  
+* Flash Map & Download Address refer to documentation [2A-ESP8266-SDK__Getting_Started_Guide](http://bbs.espressif.com/viewtopic.php?f=51&t=1024).   
